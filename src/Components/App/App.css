@@ -1,0 +1,94 @@
+body,
+html, 
+#root {
+  height: 100%;
+}
+
+html {
+  font-size: 18px;
+}
+
+.AllApp {
+  background-image: url('./background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  padding: 2rem 0; 
+  text-align: center;
+  font-family: 'Modak', sans-serif;
+  font-size: 4rem;
+  color: #fff;
+}
+
+h1 .highlight {
+  color: #F2007B;
+}
+
+h3 {
+  padding-bottom: 1rem;
+  text-align: center;
+  font-family: 'Inconsolata', sans-serif;
+  font-size: 1rem;
+  color: #fff;
+}
+
+h2 {
+  font-family: 'Inconsolata', sans-serif;
+  font-size: 1.55rem;
+}
+
+.App {
+  height: 100%;
+  padding: 0 17% 10% 17%;
+  
+  font-family: 'Inconsolata', sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+.App-playlist {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1020px) {
+  .App-playlist {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .App-playlist h3 {
+  font-size: 0.6rem;
+  }
+
+  .App-playlist p {
+    font-size: 0.5rem;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .App-playlist h3 {
+  font-size: 0.8rem;
+  }
+
+  .App-playlist p {
+    font-size: 0.7rem;
+    }
+}
+
+@media only screen and (min-width: 1021px) and (max-width: 1274px) {
+  .App-playlist h3 {
+    font-size: 0.9rem;
+    }
+  
+    .App-playlist p {
+      font-size: 0.8rem;
+      }
+}
+/* @media only screen and (min-width: 320px) and (max-width: 480px) */
